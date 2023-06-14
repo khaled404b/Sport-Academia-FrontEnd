@@ -1,3 +1,3 @@
-const API_URL = 'http://192.168.8.129:8000';
+const API_URL = 'https://sport-academia.herokuapp.com/';
 
 export default API_URL;     
