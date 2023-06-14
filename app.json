@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Academia Players",
+    "slug": "Academia-Players",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Image/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Newer.SportAcademia"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Image/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.Newer.SportAcademia"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "18f54023-895f-4a4b-9aa6-ea89b08efd95"
+      }
+    }
+  }
+}
