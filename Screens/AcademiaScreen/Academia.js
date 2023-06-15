@@ -9,7 +9,7 @@ import {
   Easing,
   Image,
   Modal,
-  TextInput
+  TextInput   
 } from 'react-native';
 import { PassCode } from './PassCode'; // Replace 'path/to/passcode' with the actual path to your passcode.js file
 
