@@ -19,19 +19,15 @@
       "bundleIdentifier": "com.Newer.SportAcademia"
     },
     "android": {
+      "package": "com.AndriodNewer.SportAcademia",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/Image/icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.Newer.SportAcademia"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "18f54023-895f-4a4b-9aa6-ea89b08efd95"
-      }
     }
   }
 }
