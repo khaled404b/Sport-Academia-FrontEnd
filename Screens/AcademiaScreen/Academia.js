@@ -23,7 +23,7 @@ console
       toValue: 1,
       duration: 1000,
       easing: Easing.ease,
-      useNativeDriver: true,
+      useNativeDriver: true,       
     }).start();
   }, []);
 
