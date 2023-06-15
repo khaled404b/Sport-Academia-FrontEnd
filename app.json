@@ -19,7 +19,7 @@
       "bundleIdentifier": "com.Newer.SportAcademia"
     },
     "android": {
-      "package": "com.AndriodNewer.SportAcademia",
+      "package": "com.Newer.SportAcademia",
       "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/Image/icon.png",
