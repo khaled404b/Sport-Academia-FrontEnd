@@ -3,8 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import UserContext from './Context/UserContext';
 
-import { LogBox } from 'react-native';
-LogBox.ignoreAllLogs(true);
+
 
 
 //screen of start
