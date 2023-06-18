@@ -2,7 +2,7 @@
   "expo": {
     "name": "Academia Players",
     "slug": "Academia-Players",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Image/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,7 @@
     },
     "android": {
       "package": "com.Newer.SportAcademia",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/Image/icon.png",
         "backgroundColor": "#ffffff"
