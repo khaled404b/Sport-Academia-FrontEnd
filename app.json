@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.Newer.SportAcademia"
