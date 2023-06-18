@@ -9,13 +9,7 @@
     },
     "androidapk":{
       "android":{
-        "gradleCommand": ":app:assembleDebug",
         "buildType":"apk"
-      }
-    },
-    "androidapk1":{
-      "android":{
-        "gradleCommand": ":app:assembleDebug"
       }
     },
     "preview": {
