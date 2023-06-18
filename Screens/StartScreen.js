@@ -110,7 +110,7 @@ const StartScreen = ({ navigation }) => {
                 style={styles.button2}
                 onPress={() => navigation.navigate('Academia')}
               >
-                <Text style={styles.buttonText}>Academjia</Text>
+                <Text style={styles.buttonText}>Academia</Text>
               </TouchableOpacity>
             </Animated.View>
           </View>
