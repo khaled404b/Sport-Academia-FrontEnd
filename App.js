@@ -3,6 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import UserContext from './Context/UserContext';
 
+import { LogBox } from 'react-native';
+LogBox.ignoreAllLogs(true);
 
 
 //screen of start
@@ -84,6 +86,7 @@ import EventDetailsClient from './Screens/EventScreenForClient/EventDetailsClien
 //screen of Event for ACA
 import EventCalendarAcA from './Screens/EventScreenForAcA/EventCalendarAcA';
 import EventDetailsAcA from './Screens/EventScreenForAcA/EventDetailsAcA';
+import 'whatwg-fetch';
 
 
  
