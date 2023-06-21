@@ -15,7 +15,8 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.Newer.SportAcademia"
-    },
+      
+    }, 
     "android": {
       "package": "com.Newer.SportAcademia",
       "versionCode": 3,
@@ -23,6 +24,44 @@
         "foregroundImage": "./assets/Image/icon.png",
         "backgroundColor": "#ffffff"
       }
+      ,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK",
+        "INTERNET",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE",
+        "NFC",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "READ_CONTACTS",
+        "WRITE_CONTACTS",
+        "READ_PHONE_STATE",
+        "CALL_PHONE",
+        "READ_CALL_LOG",
+        "WRITE_CALL_LOG",
+        "ANSWER_PHONE_CALLS",
+        "ADD_VOICEMAIL",
+        "USE_SIP",
+        "PROCESS_OUTGOING_CALLS",
+        "BODY_SENSORS",
+        "RECORD_AUDIO",
+        "READ_SMS",
+        "SEND_SMS",
+        "RECEIVE_SMS",
+        "RECEIVE_WAP_PUSH",
+        "RECEIVE_MMS",
+        "USE_FINGERPRINT",
+        "USE_BIOMETRIC"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"

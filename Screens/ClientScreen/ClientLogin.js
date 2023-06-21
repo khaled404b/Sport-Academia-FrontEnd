@@ -36,11 +36,11 @@ const ClientLogin = ({ navigation }) => {
         navigation.navigate('Guest', { userData }); 
       } else {
         const errorData = await response.json();
-        alert("Invalid id or password.");
+        alert("Invalid ID or Passsword.");
       }
       
     } catch (error) {
-      console.error(error);
+      console.error(errorj);
     }
   };
 
