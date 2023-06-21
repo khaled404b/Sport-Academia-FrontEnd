@@ -97,7 +97,8 @@ const App = () => {
   const [user, setUser] = useState(null);
 
   return (
-  
+    <React.StrictMode>
+
     <UserContext.Provider value={{ user, setUser }}>
 
     <NavigationContainer >
@@ -514,8 +515,10 @@ const App = () => {
         
       </Stack.Navigator>
     </NavigationContainer>
+
     </UserContext.Provider>
   
+    </React.StrictMode>
 
 
   );
