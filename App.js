@@ -86,7 +86,6 @@ import EventDetailsClient from './Screens/EventScreenForClient/EventDetailsClien
 //screen of Event for ACA
 import EventCalendarAcA from './Screens/EventScreenForAcA/EventCalendarAcA';
 import EventDetailsAcA from './Screens/EventScreenForAcA/EventDetailsAcA';
-import 'whatwg-fetch';
 
 
  
@@ -97,7 +96,6 @@ const App = () => {
   const [user, setUser] = useState(null);
 
   return (
-    <React.StrictMode>
 
     <UserContext.Provider value={{ user, setUser }}>
 
@@ -111,8 +109,9 @@ const App = () => {
         },
         headerTintColor: '#fff',
       }}> 
+
         <Stack.Screen
-          name="Start" 
+          name="StartScreen" 
           component={StartScreen}
           options={{ headerShown: false }}
         />
@@ -518,7 +517,6 @@ const App = () => {
 
     </UserContext.Provider>
   
-    </React.StrictMode>
 
 
   );
