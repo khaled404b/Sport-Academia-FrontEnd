@@ -15,7 +15,7 @@
     }, 
     "android": {
       "package": "com.Newer.SportAcademia",
-      "versionCode": 3,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/Image/icon.png",
         "backgroundColor": "#ffffff"
